@@ -1,0 +1,241 @@
+<!DOCTYPE html><html lang="fr" /><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Nice Ped menu</title>
+<!-- Author : NiceTV / https://github.com/nicevideo?tab=repositories / https://discord.com/channels/906822115024597042/ / https://www.youtube.com/@nicevideo2017/videos -->
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 0.8rem; /* Base de 16px calc(1vw + 1vh + 0.5vmin); */
+        color: #fff;
+    }
+    body { display: none; }
+    div#rbtn {
+        margin-bottom: 1.5rem;
+    }
+    label {
+        font-size: 1.5rem;
+    }
+    #side-menu {
+        position: fixed;
+        right: 0;
+        top: 10%;
+        width: 35%;
+        height: 80%;
+        /* background-color: #f8f8f8; */
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 1px solid #d3d3d3;
+        border-radius: 2% 0 0 2%;
+        box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0; /* 1rem; */
+    }
+    #search-bar {
+        width: calc(90% - 35px);
+        color: #fff;
+        font-size: 1.5rem;
+        padding-left: 35px;
+        background: url('loupe.png') no-repeat left top;
+        background-size: contain;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        border: 1px solid blue;
+    }
+    
+    .hover-image {
+        /* width: 50px; Ajuster la taille de l'image si nécessaire */
+        /* height: auto; */
+    }
+    #search-bar::placeholder {
+    }
+    #result-list {
+        width: 100%;
+        font-size: 1.5rem;
+        overflow-y: auto;
+        flex-grow: 1;
+    }
+    .result-item {
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 10px; */
+        border: 1px solid #ccc;
+        /* margin-bottom: 10px; */
+    }
+    .result-item .button-container {
+        display: flex;
+        gap: 10px;
+    }
+    .result-item:hover, .result-item.selected {
+        background-color: #aaa; /* #e0e0e0 */
+    }
+</style>
+</head>
+<body>
+    <div id="side-menu">
+        <input type="text" id="search-bar" placeholder="Search..." />
+        <div id="rbtn">
+            <input type="radio" id="male" name="gender" value="male" checked><label for="male">Men</label>
+            <input type="radio" id="female" name="gender" value="female"><label for="female">Women</label>
+            <!-- <input type="radio" id="teen" name="gender" value="teen"><label for="teen">Teen</label> -->
+        </div>
+        <!-- <div><input type="checkbox" id="v_picture" name="view_picture" value="v_picture" checked /><label for="v_picture">View picture (on mouse over)</label></div> -->
+        <div id="result-list"></div>
+    </div>
+
+<script src="j.js"></script>
+<script src="tab_male.js"></script><script src="tab_female.js"></script><!-- <script src="tab_teen.js"></script> -->
+<script>
+$(document).ready(function() {
+    let init = false;
+    window.addEventListener('message', (event) => {
+        switch (event.data.type) {
+            case "start": // to start the first time
+                $("body").show();
+                if (!init) {
+                    init = true;
+                    filterResults('', 'male'); // Default to male or whatever is your preference
+                }
+            break;
+            case "close": // to close
+                $("body").hide();
+            break;
+            case "open": // to reopen (after the first time)
+                $("body").show();
+            break;
+            case 3: // esc, close
+                $("body").hide(); // Reset();
+            break;
+
+            default:
+                $("body").hide();
+        }
+    });
+
+    function filterResults(query = '', gender = '') {
+        let data = [];
+        
+        // Selecting the appropriate data array based on gender
+        if(gender === 'male') data = tab_male.filter(item => item.name.toLowerCase().includes(query.toLowerCase()));
+        else if(gender === 'female') data = tab_female.filter(item => item.name.toLowerCase().includes(query.toLowerCase()));
+        // else if(gender === 'teen') data = tab_teen.filter(item => item.name.toLowerCase().includes(query.toLowerCase()));
+
+        $('#result-list').html(''); // Clearing and repopulating the result list
+        data.forEach(function(item) {
+            $('#result-list').append(
+                $('<div class="result-item"></div>').html('<span>' + item.name + '</span><div class="button-container"><button class="btnPreview">Preview</button><button class="btnUse">Use</button></div>')
+                    .on('click', function() {
+                        // view_ped($(this).text());
+                    })
+                    .on('mouseover', function() {
+                        $('.hover-image').remove();
+                        if($("#v_picture").is(':checked'))
+                        {
+                            var imgSrc = 'picture/' + item.name.toLowerCase() + '.png';
+
+                            // $('body').append('<img src='+imgSrc+' style="position: absolute" />');
+                            $.ajax({
+                                url: imgSrc,
+                                type: 'HEAD',
+                                success: function() {
+                                    // console.log('Image exists');
+                                    var img = $('<img>').attr('src', imgSrc).css({
+                                        position: 'absolute'
+                                    }).addClass('hover-image').on('load', function() {
+                                        $(this).css({
+                                            left: ($(window).width() - $(this).width()) / 2, // to center horizontally
+                                            top: ($(window).height() - $(this).height()) / 2 // to center vertically
+                                        });
+                                    });
+                                    $('body').append(img);
+                                }
+                            });
+                        }
+                    })
+                    .on('dblclick', function() {
+                        // use_ped($(this).text());
+                    })
+            );
+        });
+
+        $('#result-list .result-item:first').addClass('selected'); // Automatically select the first item if available
+
+        $("button.btnPreview").click(function() { // PREVIEW
+            view_ped($(this).closest('div.result-item').find('span').text());
+        });
+
+        $("button.btnUse").click(function() { // USE
+            use_ped($(this).closest('div.result-item').find('span').text());
+        });
+    }
+
+    // Initial empty filtering to populate with default data
+    // filterResults('', 'male'); // Default to male or whatever is your preference
+
+    $('#search-bar').on('input', function() { // SEARCH BAR
+        filterResults($(this).val(), $('input[name="gender"]:checked').val());
+    });
+
+    $('input[name="gender"]').change(function() { // RADIO BUTTONS
+        filterResults($('#search-bar').val(), $(this).val());
+    });
+
+    let itemList = $('#result-list');
+
+    let arrowTimeout;
+
+    $(document).on('keydown', function(e) {
+        let selected = itemList.find('.selected');
+        
+        function changeSelection(newSelected) {
+            selected.removeClass('selected');
+            newSelected.addClass('selected');
+        }
+
+        switch (e.which) {
+            case 40: // DOWN arrow
+                clearTimeout(arrowTimeout);
+                    arrowTimeout = setTimeout(function() {
+                        if (selected.next().length) {
+                            changeSelection(selected.next());
+                            // view_ped(selected.text());
+                        }
+                    }, 500);
+                break;
+            case 38: // UP arrow
+                clearTimeout(arrowTimeout);
+                    arrowTimeout = setTimeout(function() {
+                        if (selected.prev().length) {
+                            changeSelection(selected.prev());
+                            // view_ped(selected.text());
+                        }
+                    }, 500);
+                break;
+            case 13: // ENTER key
+                // use_ped(selected.text());
+                break;
+            case 27: // ESC key
+                $("body").hide(); // Reset();
+                $.post('https://nice_ped/close');
+                break;
+        }
+    });
+});
+
+function use_ped(name) {
+    $.post('https://nice_ped/spawnped', JSON.stringify({ name:name }));
+}
+
+function view_ped(name) {
+    $.post('https://nice_ped/viewped', JSON.stringify({ name:name }));
+}
+</script>
+</body>
+</html>

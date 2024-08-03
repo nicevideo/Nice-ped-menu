@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaPed>
+ <outfits itemType="MetaPedOutfit">
+  <Item>
+   <name>meta_outfit_default</name>
+   <ethnicity>ckjaZQA_0x2EFA64A9</ethnicity>
+   <slodDwd />
+   <voiceGroup />
+   <damagePack />
+   <goreType />
+   <scale value="1" />
+   <cutsceneScale value="0" />
+   <scaleRandomOffset value="0" />
+   <coatShine value="0" />
+   <coatShineBase value="0" />
+   <coatShineMin value="0" />
+   <coatShineMax value="1" />
+   <eyeRedness value="0" />
+   <removeLimbBone>ID_INVALID</removeLimbBone>
+   <fullOutfit value="True" />
+   <priorityLoad value="False" />
+   <preStream value="False" />
+   <assets />
+   <explicitAssets itemType="MetaPedDefExplicitAsset">
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_hat_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_hat_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_hat_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_hat_000_c1_000_m</material>
+     <palette>CkFZSFA_0xFB71527B</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_vest_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_vest_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_vest_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_vest_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_boot_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_boot_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_boot_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_boot_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_neckerchief_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_neckerchief_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_neckerchief_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_neckerchief_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_pants_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_pants_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_pants_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_pants_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_shirt_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_shirt_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_shirt_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_shirt_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_holster_belt_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_holster_belt_000_c0_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_holster_belt_000_c0_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_holster_belt_000_c0_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_holster_cup_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_holster_cup_000_c0_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_holster_cup_000_c0_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_holster_cup_000_c0_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_hair_000</drawable>
+     <albedo>uFiPbBA_0x8C2F7AAB</albedo>
+     <normal>idtaCBA_0x78F19666</normal>
+     <material>RNTIxSA_0x4DD00D39</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="9" />
+     <tint1 value="9" />
+     <tint2 value="9" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_chain_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_chain_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_chain_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_chain_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_beard_000</drawable>
+     <albedo>KwYbeUA_0xF8AF92E5</albedo>
+     <normal>hOeBUKA_0x7E6E8DF9</normal>
+     <material>sqHVbGA_0xF4FD0D09</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="9" />
+     <tint1 value="9" />
+     <tint2 value="9" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_eyebrows_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_eyebrows_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_eyebrows_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_eyebrows_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_nude_upper_000</drawable>
+     <albedo>gOCGwKA_0x14AA7AC1</albedo>
+     <normal>hand_mr1_000_c0_000_nm</normal>
+     <material>xEhIahA_0x6B504BEC</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_head_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_head_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_head_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_head_000_c1_000_m</material>
+     <palette>NReZaHA_0x9AC34F34</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_teeth_000</drawable>
+     <albedo>SMTwkKA_0x2DABF7E8</albedo>
+     <normal />
+     <material>cs_lenny_ms1_teeth_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_eyes_000</drawable>
+     <albedo>eyes_gen_0000_c0_006_ab</albedo>
+     <normal>eyes_gen_0000_c0_000_nm</normal>
+     <material>eyes_gen_0000_c0_000_m</material>
+     <palette>oHtroKA_0xA4CFABD0</palette>
+     <tint0 value="6" />
+     <tint1 value="113" />
+     <tint2 value="110" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_eyecap_000</drawable>
+     <albedo>eye_cap_gen_0000_c0_000_ab</albedo>
+     <normal>eye_cap_gen_0000_c0_000_nm</normal>
+     <material>eye_cap_gen_0000_c0_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+   </explicitAssets>
+   <expressions itemType="MetaPedExpression">
+    <Item>
+     <id value="52553" />
+     <value value="-0.054" />
+    </Item>
+    <Item>
+     <id value="3437" />
+     <value value="-0.3" />
+    </Item>
+    <Item>
+     <id value="16009" />
+     <value value="0.095" />
+    </Item>
+    <Item>
+     <id value="38169" />
+     <value value="-0.8" />
+    </Item>
+    <Item>
+     <id value="9586" />
+     <value value="-0.2" />
+    </Item>
+   </expressions>
+   <subOutfits />
+   <variations />
+   <tags>
+    <Item>hTzmBfA_0x4BFA4A07</Item>
+    <Item>rRHQlJA_0x2F9EEF6E</Item>
+   </tags>
+   <shopItems />
+  </Item>
+  <Item>
+   <name>tkBYbBA_0xE75A0CC1</name>
+   <ethnicity>ckjaZQA_0x2EFA64A9</ethnicity>
+   <slodDwd>kDVQUBA_0x85816EDA</slodDwd>
+   <voiceGroup />
+   <damagePack />
+   <goreType />
+   <scale value="1" />
+   <cutsceneScale value="0" />
+   <scaleRandomOffset value="0" />
+   <coatShine value="0" />
+   <coatShineBase value="0" />
+   <coatShineMin value="0" />
+   <coatShineMax value="1" />
+   <eyeRedness value="0" />
+   <removeLimbBone>ID_INVALID</removeLimbBone>
+   <fullOutfit value="True" />
+   <priorityLoad value="False" />
+   <preStream value="False" />
+   <assets />
+   <explicitAssets itemType="MetaPedDefExplicitAsset">
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_boot_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_boot_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_boot_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_boot_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_pants_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_pants_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_pants_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_pants_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_shirt_001</drawable>
+     <albedo>cs_mp_dannylee_ms1_shirt_001_c0_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_shirt_001_c0_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_shirt_001_c0_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_suspenders_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_suspenders_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_suspenders_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_suspenders_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_hair_000</drawable>
+     <albedo>uFiPbBA_0x8C2F7AAB</albedo>
+     <normal>idtaCBA_0x78F19666</normal>
+     <material>RNTIxSA_0x4DD00D39</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="9" />
+     <tint1 value="9" />
+     <tint2 value="9" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_beard_000</drawable>
+     <albedo>KwYbeUA_0xF8AF92E5</albedo>
+     <normal>hOeBUKA_0x7E6E8DF9</normal>
+     <material>sqHVbGA_0xF4FD0D09</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="9" />
+     <tint1 value="9" />
+     <tint2 value="9" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_eyebrows_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_eyebrows_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_eyebrows_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_eyebrows_000_c1_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_nude_upper_000</drawable>
+     <albedo>gOCGwKA_0x14AA7AC1</albedo>
+     <normal>hand_mr1_000_c0_000_nm</normal>
+     <material>xEhIahA_0x6B504BEC</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_head_000</drawable>
+     <albedo>cs_mp_dannylee_ms1_head_000_c1_000_ab</albedo>
+     <normal>cs_mp_dannylee_ms1_head_000_c1_000_nm</normal>
+     <material>cs_mp_dannylee_ms1_head_000_c1_000_m</material>
+     <palette>NReZaHA_0x9AC34F34</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_teeth_000</drawable>
+     <albedo>SMTwkKA_0x2DABF7E8</albedo>
+     <normal />
+     <material>cs_lenny_ms1_teeth_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_eyes_000</drawable>
+     <albedo>eyes_gen_0000_c0_006_ab</albedo>
+     <normal>eyes_gen_0000_c0_000_nm</normal>
+     <material>eyes_gen_0000_c0_000_m</material>
+     <palette>oHtroKA_0xA4CFABD0</palette>
+     <tint0 value="6" />
+     <tint1 value="113" />
+     <tint2 value="110" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_dannylee_ms1_eyecap_000</drawable>
+     <albedo>eye_cap_gen_0000_c0_000_ab</albedo>
+     <normal>eye_cap_gen_0000_c0_000_nm</normal>
+     <material>eye_cap_gen_0000_c0_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+   </explicitAssets>
+   <expressions itemType="MetaPedExpression">
+    <Item>
+     <id value="52553" />
+     <value value="-0.054" />
+    </Item>
+    <Item>
+     <id value="3437" />
+     <value value="-0.3" />
+    </Item>
+    <Item>
+     <id value="16009" />
+     <value value="0.095" />
+    </Item>
+    <Item>
+     <id value="38169" />
+     <value value="-0.8" />
+    </Item>
+    <Item>
+     <id value="9586" />
+     <value value="-0.2" />
+    </Item>
+   </expressions>
+   <subOutfits />
+   <variations />
+   <tags>
+    <Item>hTzmBfA_0x4BFA4A07</Item>
+    <Item>rRHQlJA_0x2F9EEF6E</Item>
+   </tags>
+   <shopItems />
+  </Item>
+ </outfits>
+ <voiceGroup />
+ <pulverizeVfx />
+ <goreType>none</goreType>
+ <type>MPT_MALE</type>
+ <version value="106" />
+ <allowRandomExpressions value="False" />
+</MetaPed>

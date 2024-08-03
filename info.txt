@@ -1,0 +1,48 @@
+[EN]
+
+If you read the XML files (file_xml), you'll see that they contain all the information relating to the ped's variations (outfits).
+
+In fact, the same ped can have different variations.
+
+Important information: 
+
+if your basic ped is male, you can only use a male ped.
+if your basic ped is a woman, you can only use a woman's ped.
+(If you're motivated, you can solve this problem).
+
+Before you spawn your ped (use button or /spawnped command), the script will reload your ped (Config.loadskin),
+==> the function name differs from one framework to another, so it's up to you to check.
+
+then spawn the selected ped: cl_functions.lua : function LoadPed
+
++ more than 1,000 men peds
++ more than 300 women peds
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+[FR]
+
+En lisant les fichiers XML (file_xml) vous verrez qu'il y a la totalités des informations en rapport avec les variations (tenues, outfit) des peds.
+
+En effet, un même ped peut avoir différentes variations.
+
+Information importante : 
+
+si votre ped de base est un homme, vous savez uniquement utiliser un ped homme.
+si votre ped de base est une femme, vous savez uniquement utiliser un ped femme.
+(Si vous êtes motivé, vous savez régler ce problème).
+
+Avant de faire spawn votre ped (bouton use ou commande /spawnped), le script va recharger votre ped (Config.loadskin),
+==> le nom de la fonction est différente d'un framework à l'autre, à vous de vérifier.
+
+puis enfin faire spawn le ped sélectionné : cl_functions.lua : function LoadPed
+
++ de 1.000 peds hommes
++ de 300 peds femmes
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Showcase Youtube : https://www.youtube.com/@nicevideo2017/videos
+Github : https://github.com/nicevideo?tab=repositories
+Tebex : https://nices-webstore.tebex.io/
+Discord : https://discord.com/channels/906822115024597042/

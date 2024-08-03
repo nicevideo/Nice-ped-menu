@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaPed>
+ <outfits itemType="MetaPedOutfit">
+  <Item>
+   <name>meta_outfit_default</name>
+   <ethnicity />
+   <slodDwd />
+   <voiceGroup />
+   <damagePack />
+   <goreType />
+   <scale value="0" />
+   <cutsceneScale value="0" />
+   <scaleRandomOffset value="0" />
+   <coatShine value="0" />
+   <coatShineBase value="0" />
+   <coatShineMin value="0" />
+   <coatShineMax value="1" />
+   <eyeRedness value="0" />
+   <removeLimbBone>ID_INVALID</removeLimbBone>
+   <fullOutfit value="True" />
+   <priorityLoad value="False" />
+   <preStream value="False" />
+   <assets />
+   <explicitAssets itemType="MetaPedDefExplicitAsset">
+    <Item>
+     <drawable>cs_magnifico_ms1_hat_000</drawable>
+     <albedo>cs_magnifico_ms1_hat_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_hat_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_hat_000_c0_000_m</material>
+     <palette />
+     <tint0 value="255" />
+     <tint1 value="255" />
+     <tint2 value="255" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_eyebrows_000</drawable>
+     <albedo>cs_magnifico_ms1_eyebrows_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_eyebrows_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_eyebrows_000_c0_000_m</material>
+     <palette />
+     <tint0 value="255" />
+     <tint1 value="255" />
+     <tint2 value="255" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_eyes_000</drawable>
+     <albedo>OkSfiGA_0xBD10D52A</albedo>
+     <normal>eyes_gen_0000_c0_000_nm</normal>
+     <material>eyes_gen_0000_c0_000_m</material>
+     <palette>oHtroKA_0xA4CFABD0</palette>
+     <tint0 value="0" />
+     <tint1 value="42" />
+     <tint2 value="43" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_head_000</drawable>
+     <albedo>cs_magnifico_ms1_head_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_head_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_head_000_c0_000_m</material>
+     <palette />
+     <tint0 value="255" />
+     <tint1 value="255" />
+     <tint2 value="255" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_beard_000</drawable>
+     <albedo>KwYbeUA_0xF8AF92E5</albedo>
+     <normal>hOeBUKA_0x7E6E8DF9</normal>
+     <material>sqHVbGA_0xF4FD0D09</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="9" />
+     <tint1 value="9" />
+     <tint2 value="9" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_hair_001</drawable>
+     <albedo>hair_gen_999_c0_999_ab</albedo>
+     <normal>hair_gen_999_c0_999_nm</normal>
+     <material>hair_gen_999_c0_999_m</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="9" />
+     <tint1 value="9" />
+     <tint2 value="9" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_shirt_001</drawable>
+     <albedo>cs_magnifico_ms1_shirt_001_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_shirt_001_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_shirt_001_c0_000_m</material>
+     <palette />
+     <tint0 value="255" />
+     <tint1 value="255" />
+     <tint2 value="255" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_vest_001</drawable>
+     <albedo>cs_magnifico_ms1_vest_001_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_vest_001_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_vest_001_c0_000_m</material>
+     <palette />
+     <tint0 value="255" />
+     <tint1 value="255" />
+     <tint2 value="255" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_nude_upper_000</drawable>
+     <albedo>hand_mr1_000_c0_000_ab</albedo>
+     <normal>hand_mr1_000_c0_000_nm</normal>
+     <material>xEhIahA_0x6B504BEC</material>
+     <palette />
+     <tint0 value="255" />
+     <tint1 value="255" />
+     <tint2 value="255" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_pants_001</drawable>
+     <albedo>cs_magnifico_ms1_pants_001_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_pants_001_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_pants_001_c0_000_m</material>
+     <palette />
+     <tint0 value="255" />
+     <tint1 value="255" />
+     <tint2 value="255" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_boot_000</drawable>
+     <albedo>cs_magnifico_ms1_boot_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_boot_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_boot_000_c0_000_m</material>
+     <palette />
+     <tint0 value="255" />
+     <tint1 value="255" />
+     <tint2 value="255" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_scarf_000</drawable>
+     <albedo>cs_magnifico_ms1_scarf_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_scarf_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_scarf_000_c0_000_m</material>
+     <palette />
+     <tint0 value="255" />
+     <tint1 value="255" />
+     <tint2 value="255" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_eye_cap_000</drawable>
+     <albedo>eye_cap_gen_0000_c0_000_ab</albedo>
+     <normal>eye_cap_gen_0000_c0_000_nm</normal>
+     <material>eye_cap_gen_0000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_teeth_000</drawable>
+     <albedo>YgpkJlA_0x7480EBA5</albedo>
+     <normal>egoQWKA_0xEF1656DA</normal>
+     <material>vhPnvMA_0xB3581CC7</material>
+     <palette />
+     <tint0 value="255" />
+     <tint1 value="255" />
+     <tint2 value="255" />
+     <probability value="255" />
+    </Item>
+   </explicitAssets>
+   <expressions />
+   <subOutfits />
+   <variations />
+   <tags>
+    <Item>kyrapDA_0xE4401C70</Item>
+    <Item>hTzmBfA_0x4BFA4A07</Item>
+    <Item>rRHQlJA_0x2F9EEF6E</Item>
+   </tags>
+   <shopItems />
+  </Item>
+  <Item>
+   <name>vKWIUJA_0xD2A25CFF</name>
+   <ethnicity>caucasian</ethnicity>
+   <slodDwd />
+   <voiceGroup />
+   <damagePack />
+   <goreType />
+   <scale value="0" />
+   <cutsceneScale value="0" />
+   <scaleRandomOffset value="0" />
+   <coatShine value="0" />
+   <coatShineBase value="0" />
+   <coatShineMin value="0" />
+   <coatShineMax value="1" />
+   <eyeRedness value="0" />
+   <removeLimbBone>ID_INVALID</removeLimbBone>
+   <fullOutfit value="True" />
+   <priorityLoad value="False" />
+   <preStream value="False" />
+   <assets />
+   <explicitAssets itemType="MetaPedDefExplicitAsset">
+    <Item>
+     <drawable>cs_magnifico_ms1_beard_000</drawable>
+     <albedo>KwYbeUA_0xF8AF92E5</albedo>
+     <normal>hOeBUKA_0x7E6E8DF9</normal>
+     <material>sqHVbGA_0xF4FD0D09</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="9" />
+     <tint1 value="9" />
+     <tint2 value="9" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_boot_000</drawable>
+     <albedo>cs_magnifico_ms1_boot_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_boot_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_boot_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_eye_cap_000</drawable>
+     <albedo>eye_cap_gen_0000_c0_000_ab</albedo>
+     <normal>eye_cap_gen_0000_c0_000_nm</normal>
+     <material>eye_cap_gen_0000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_hair_000</drawable>
+     <albedo>hair_gen_999_c0_999_ab</albedo>
+     <normal>hair_gen_999_c0_999_nm</normal>
+     <material>hair_gen_999_c0_999_m</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="9" />
+     <tint1 value="9" />
+     <tint2 value="9" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_pouch_000</drawable>
+     <albedo>cs_magnifico_ms1_pouch_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_pouch_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_pouch_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_eyebrows_000</drawable>
+     <albedo>cs_magnifico_ms1_eyebrows_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_eyebrows_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_eyebrows_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_teeth_000</drawable>
+     <albedo>WpFeUCA_0x1F790739</albedo>
+     <normal>teeth_gen_0000_c0_000_nm</normal>
+     <material>teeth_gen_0000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_eyes_000</drawable>
+     <albedo>OkSfiGA_0xBD10D52A</albedo>
+     <normal>eyes_gen_0000_c0_000_nm</normal>
+     <material>eyes_gen_0000_c0_000_m</material>
+     <palette>oHtroKA_0xA4CFABD0</palette>
+     <tint0 value="0" />
+     <tint1 value="42" />
+     <tint2 value="43" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_head_000</drawable>
+     <albedo>cs_magnifico_ms1_head_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_head_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_head_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_nude_upper_000</drawable>
+     <albedo>hand_mr1_000_c0_007_ab</albedo>
+     <normal>hand_mr1_000_c0_000_nm</normal>
+     <material>xEhIahA_0x6B504BEC</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_pants_000</drawable>
+     <albedo>cs_magnifico_ms1_pants_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_pants_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_pants_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_shirt_000</drawable>
+     <albedo>cs_magnifico_ms1_shirt_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_shirt_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_shirt_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_cape_000</drawable>
+     <albedo>cs_magnifico_ms1_cape_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_cape_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_cape_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_belt_000</drawable>
+     <albedo>cs_magnifico_ms1_belt_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_belt_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_belt_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_vest_000</drawable>
+     <albedo>cs_magnifico_ms1_vest_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_vest_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_vest_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_bandanna_000</drawable>
+     <albedo>cs_magnifico_ms1_bandanna_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_bandanna_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_bandanna_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_magnifico_ms1_tie_000</drawable>
+     <albedo>cs_magnifico_ms1_tie_000_c0_000_ab</albedo>
+     <normal>cs_magnifico_ms1_tie_000_c0_000_nm</normal>
+     <material>cs_magnifico_ms1_tie_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+   </explicitAssets>
+   <expressions itemType="MetaPedExpression">
+    <Item>
+     <id value="16009" />
+     <value value="-0.1" />
+    </Item>
+    <Item>
+     <id value="38169" />
+     <value value="-0.87" />
+    </Item>
+    <Item>
+     <id value="9586" />
+     <value value="-0.4" />
+    </Item>
+   </expressions>
+   <subOutfits />
+   <variations />
+   <tags>
+    <Item>kyrapDA_0xE4401C70</Item>
+    <Item>hTzmBfA_0x4BFA4A07</Item>
+    <Item>rRHQlJA_0x2F9EEF6E</Item>
+   </tags>
+   <shopItems />
+  </Item>
+ </outfits>
+ <voiceGroup />
+ <pulverizeVfx />
+ <goreType>none</goreType>
+ <type>MPT_MALE</type>
+ <version value="3" />
+ <allowRandomExpressions value="False" />
+</MetaPed>

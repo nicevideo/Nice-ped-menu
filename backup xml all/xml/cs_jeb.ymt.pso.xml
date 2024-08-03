@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaPed>
+ <outfits itemType="MetaPedOutfit">
+  <Item>
+   <name>meta_outfit_default</name>
+   <ethnicity>caucasian</ethnicity>
+   <slodDwd>QBLBULA_0x33788FEA</slodDwd>
+   <voiceGroup />
+   <damagePack />
+   <goreType />
+   <scale value="1" />
+   <cutsceneScale value="0" />
+   <scaleRandomOffset value="0" />
+   <coatShine value="0" />
+   <coatShineBase value="0" />
+   <coatShineMin value="0" />
+   <coatShineMax value="1" />
+   <eyeRedness value="0" />
+   <removeLimbBone>ID_INVALID</removeLimbBone>
+   <fullOutfit value="True" />
+   <priorityLoad value="False" />
+   <preStream value="False" />
+   <assets />
+   <explicitAssets itemType="MetaPedDefExplicitAsset">
+    <Item>
+     <drawable>DVvmQIA_0x5C730F40</drawable>
+     <albedo>UXTooWA_0xF9E4E887</albedo>
+     <normal>jfvhpMA_0x9BB26E39</normal>
+     <material>shuOEFA_0x79CB9DE6</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_jeb_ms1_coat_002</drawable>
+     <albedo>cgpEaVA_0x96F02891</albedo>
+     <normal>VnFkZCA_0x1FB58682</normal>
+     <material>uXIPEEA_0xC4A0BB76</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>GDpPIAA_0x140E6EC7</drawable>
+     <albedo>JkXbJKA_0x1FAE6684</albedo>
+     <normal>fEzvwDA_0x95E187AB</normal>
+     <material>oomFJgA_0x0920AE5A</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>VZOtquA_0x94490CE3</drawable>
+     <albedo>XsfFgtA_0x215FEAF9</albedo>
+     <normal>kgHjtWA_0x45A9A260</normal>
+     <material>HPZIbKA_0x68E86FC3</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>AdFQLFA_0x275B5CD5</drawable>
+     <albedo>UOGZneA_0x6734AE11</albedo>
+     <normal>HbPRUEA_0xA8D51DAD</normal>
+     <material>UkZmeeA_0xF6BEDC0D</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>bGMpNEA_0xD306C63B</drawable>
+     <albedo>DSgnvEA_0xD3B644CA</albedo>
+     <normal>mokaCMA_0xDAA2502A</normal>
+     <material>JxHkiUA_0xA20F5599</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>PpRxHjA_0x55E10E25</drawable>
+     <albedo>hair_gen_999_c0_999_ab</albedo>
+     <normal>hair_gen_999_c0_999_nm</normal>
+     <material>hair_gen_999_c0_999_m</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="23" />
+     <tint1 value="87" />
+     <tint2 value="57" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>WTwSgCA_0x2BE3C1BE</drawable>
+     <albedo>KwYbeUA_0xF8AF92E5</albedo>
+     <normal>hOeBUKA_0x7E6E8DF9</normal>
+     <material>sqHVbGA_0xF4FD0D09</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="23" />
+     <tint1 value="87" />
+     <tint2 value="57" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>lbiKxEA_0xE35F65C7</drawable>
+     <albedo>YoyMyEA_0x22C77CD9</albedo>
+     <normal>YLlBVBA_0xA813EE4C</normal>
+     <material>cMwhYZA_0xB2BC38C7</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>sgjcvDA_0x652DC4DB</drawable>
+     <albedo>hand_mr1_000_c0_002_ab</albedo>
+     <normal>hand_mr1_000_c0_000_nm</normal>
+     <material>xEhIahA_0x6B504BEC</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>QWpQMCA_0x82EDC04A</drawable>
+     <albedo>WpFeUCA_0x1F790739</albedo>
+     <normal>teeth_gen_0000_c0_000_nm</normal>
+     <material>teeth_gen_0000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>bqaKgMA_0x5881C0B8</drawable>
+     <albedo>OkSfiGA_0xBD10D52A</albedo>
+     <normal>eyes_gen_0000_c0_000_nm</normal>
+     <material>eyes_gen_0000_c0_000_m</material>
+     <palette>oHtroKA_0xA4CFABD0</palette>
+     <tint0 value="2" />
+     <tint1 value="11" />
+     <tint2 value="80" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>hyGTadA_0x1C16F125</drawable>
+     <albedo>eye_cap_gen_0000_c0_000_ab</albedo>
+     <normal>eye_cap_gen_0000_c0_000_nm</normal>
+     <material>eye_cap_gen_0000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+   </explicitAssets>
+   <expressions itemType="MetaPedExpression">
+    <Item>
+     <id value="3437" />
+     <value value="0.09" />
+    </Item>
+    <Item>
+     <id value="9584" />
+     <value value="-0.361002" />
+    </Item>
+    <Item>
+     <id value="16009" />
+     <value value="-0.093" />
+    </Item>
+    <Item>
+     <id value="38169" />
+     <value value="-0.771998" />
+    </Item>
+    <Item>
+     <id value="9586" />
+     <value value="-0.601" />
+    </Item>
+    <Item>
+     <id value="9584" />
+     <value value="-0.361002" />
+    </Item>
+   </expressions>
+   <subOutfits />
+   <variations />
+   <tags>
+    <Item>hTzmBfA_0x4BFA4A07</Item>
+    <Item>rRHQlJA_0x2F9EEF6E</Item>
+   </tags>
+   <shopItems />
+  </Item>
+  <Item>
+   <name>MYamHQA_0x64BA68C8</name>
+   <ethnicity>caucasian</ethnicity>
+   <slodDwd>jivUmJA_0xC0B71F3A</slodDwd>
+   <voiceGroup />
+   <damagePack />
+   <goreType />
+   <scale value="1" />
+   <cutsceneScale value="0" />
+   <scaleRandomOffset value="0" />
+   <coatShine value="0" />
+   <coatShineBase value="0" />
+   <coatShineMin value="0" />
+   <coatShineMax value="1" />
+   <eyeRedness value="0" />
+   <removeLimbBone>ID_INVALID</removeLimbBone>
+   <fullOutfit value="True" />
+   <priorityLoad value="False" />
+   <preStream value="False" />
+   <assets />
+   <explicitAssets itemType="MetaPedDefExplicitAsset">
+    <Item>
+     <drawable>bGMpNEA_0xD306C63B</drawable>
+     <albedo>DSgnvEA_0xD3B644CA</albedo>
+     <normal>mokaCMA_0xDAA2502A</normal>
+     <material>JxHkiUA_0xA20F5599</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>hyGTadA_0x1C16F125</drawable>
+     <albedo>eye_cap_gen_0000_c0_000_ab</albedo>
+     <normal>eye_cap_gen_0000_c0_000_nm</normal>
+     <material>eye_cap_gen_0000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>bqaKgMA_0x5881C0B8</drawable>
+     <albedo>OkSfiGA_0xBD10D52A</albedo>
+     <normal>eyes_gen_0000_c0_000_nm</normal>
+     <material>eyes_gen_0000_c0_000_m</material>
+     <palette>oHtroKA_0xA4CFABD0</palette>
+     <tint0 value="3" />
+     <tint1 value="14" />
+     <tint2 value="79" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>PpRxHjA_0x55E10E25</drawable>
+     <albedo>hair_gen_999_c0_999_ab</albedo>
+     <normal>hair_gen_999_c0_999_nm</normal>
+     <material>hair_gen_999_c0_999_m</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="23" />
+     <tint1 value="50" />
+     <tint2 value="19" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>lbiKxEA_0xE35F65C7</drawable>
+     <albedo>YoyMyEA_0x22C77CD9</albedo>
+     <normal>YLlBVBA_0xA813EE4C</normal>
+     <material>kUxKVTA_0x84D9E1E1</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>sgjcvDA_0x652DC4DB</drawable>
+     <albedo>hand_mr1_000_c0_000_ab</albedo>
+     <normal>hand_mr1_000_c0_000_nm</normal>
+     <material>xEhIahA_0x6B504BEC</material>
+     <palette>NReZaHA_0x9AC34F34</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>VZOtquA_0x94490CE3</drawable>
+     <albedo>XsfFgtA_0x215FEAF9</albedo>
+     <normal>kgHjtWA_0x45A9A260</normal>
+     <material>HPZIbKA_0x68E86FC3</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>AdFQLFA_0x275B5CD5</drawable>
+     <albedo>UOGZneA_0x6734AE11</albedo>
+     <normal>HbPRUEA_0xA8D51DAD</normal>
+     <material>UkZmeeA_0xF6BEDC0D</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>QWpQMCA_0x82EDC04A</drawable>
+     <albedo>teeth_gen_0000_c0_001_ab</albedo>
+     <normal>teeth_gen_0000_c0_000_nm</normal>
+     <material>teeth_gen_0000_c0_000_m</material>
+     <palette>NReZaHA_0x9AC34F34</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>GDpPIAA_0x140E6EC7</drawable>
+     <albedo>JkXbJKA_0x1FAE6684</albedo>
+     <normal>fEzvwDA_0x95E187AB</normal>
+     <material>oomFJgA_0x0920AE5A</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_wintonholmes_ms1_coat_000</drawable>
+     <albedo>lZJIoRA_0x1EB5B130</albedo>
+     <normal>oBDZWFA_0x547AEF71</normal>
+     <material>ZqhbcoA_0xB3F378CF</material>
+     <palette>NReZaHA_0x9AC34F34</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+   </explicitAssets>
+   <expressions itemType="MetaPedExpression">
+    <Item>
+     <id value="3437" />
+     <value value="0.09" />
+    </Item>
+    <Item>
+     <id value="9584" />
+     <value value="-0.361002" />
+    </Item>
+    <Item>
+     <id value="16009" />
+     <value value="-0.093" />
+    </Item>
+    <Item>
+     <id value="38169" />
+     <value value="-0.771998" />
+    </Item>
+    <Item>
+     <id value="9586" />
+     <value value="-0.601" />
+    </Item>
+    <Item>
+     <id value="9584" />
+     <value value="-0.361002" />
+    </Item>
+   </expressions>
+   <subOutfits />
+   <variations />
+   <tags>
+    <Item>hTzmBfA_0x4BFA4A07</Item>
+    <Item>rRHQlJA_0x2F9EEF6E</Item>
+   </tags>
+   <shopItems />
+  </Item>
+  <Item>
+   <name>GmjrWXA_0xEC442A50</name>
+   <ethnicity>caucasian</ethnicity>
+   <slodDwd />
+   <voiceGroup />
+   <damagePack />
+   <goreType />
+   <scale value="1" />
+   <cutsceneScale value="0" />
+   <scaleRandomOffset value="0" />
+   <coatShine value="0" />
+   <coatShineBase value="0" />
+   <coatShineMin value="0" />
+   <coatShineMax value="1" />
+   <eyeRedness value="0" />
+   <removeLimbBone>ID_INVALID</removeLimbBone>
+   <fullOutfit value="True" />
+   <priorityLoad value="False" />
+   <preStream value="False" />
+   <assets />
+   <explicitAssets itemType="MetaPedDefExplicitAsset">
+    <Item>
+     <drawable>BtUxhBA_0xA72A48C7</drawable>
+     <albedo>jpbyjUA_0xDFAE0C05</albedo>
+     <normal>hand_mr1_000_c0_000_nm</normal>
+     <material>xEhIahA_0x6B504BEC</material>
+     <palette>NReZaHA_0x9AC34F34</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>EDbxSCA_0xE9EE624A</drawable>
+     <albedo>NPxOzQA_0xF48A767C</albedo>
+     <normal>HdhfTGA_0xB18B6127</normal>
+     <material>QvANUIA_0xBA32FE0E</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>bGMpNEA_0xD306C63B</drawable>
+     <albedo>DSgnvEA_0xD3B644CA</albedo>
+     <normal>mokaCMA_0xDAA2502A</normal>
+     <material>JxHkiUA_0xA20F5599</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>UuGxqBA_0xE7E8910B</drawable>
+     <albedo>hair_gen_999_c0_999_ab</albedo>
+     <normal>hair_gen_999_c0_999_nm</normal>
+     <material>hair_gen_999_c0_999_m</material>
+     <palette>gCrTlMA_0xDFB1F64C</palette>
+     <tint0 value="23" />
+     <tint1 value="66" />
+     <tint2 value="19" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_shaky_ms1_coat_000</drawable>
+     <albedo>cs_mp_shaky_ms1_coat_000_c0_000_ab</albedo>
+     <normal>cs_mp_shaky_ms1_coat_000_c0_000_nm</normal>
+     <material>cs_mp_shaky_ms1_coat_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>cs_mp_shaky_ms1_pants_000</drawable>
+     <albedo>cs_mp_shaky_ms1_pant_000_c0_000_ab</albedo>
+     <normal>cs_mp_shaky_ms1_pant_000_c0_000_nm</normal>
+     <material>cs_mp_shaky_ms1_pant_000_c0_000_m</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>qfPfRLA_0xF11B7F7A</drawable>
+     <albedo>eye_cap_gen_0000_c0_000_ab</albedo>
+     <normal>eye_cap_gen_0000_c0_000_nm</normal>
+     <material>eye_cap_gen_0000_c0_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>IovKhAA_0x08AF4A13</drawable>
+     <albedo>OkSfiGA_0xBD10D52A</albedo>
+     <normal>eyes_gen_0000_c0_000_nm</normal>
+     <material>eyes_gen_0000_c0_000_m</material>
+     <palette>oHtroKA_0xA4CFABD0</palette>
+     <tint0 value="3" />
+     <tint1 value="12" />
+     <tint2 value="35" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>PWJeEAA_0x2402103A</drawable>
+     <albedo>xulDHQA_0x4ABBCB74</albedo>
+     <normal>ArQQcGA_0x996A36C0</normal>
+     <material>PyVDcSA_0xF499E9BD</material>
+     <palette>NReZaHA_0x9AC34F34</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>hdPHEBA_0x76EA93DF</drawable>
+     <albedo>WpFeUCA_0x1F790739</albedo>
+     <normal>teeth_gen_0000_c0_000_nm</normal>
+     <material>teeth_gen_0000_c0_000_m</material>
+     <palette>nYcslHA_0xAA65D8A3</palette>
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+    <Item>
+     <drawable>fnSNFLA_0x99A9353D</drawable>
+     <albedo>MclBwKA_0x1358E11F</albedo>
+     <normal>LDiyUXA_0x9937CC53</normal>
+     <material>ayzYlFA_0x2BE590BB</material>
+     <palette />
+     <tint0 value="0" />
+     <tint1 value="0" />
+     <tint2 value="0" />
+     <probability value="255" />
+    </Item>
+   </explicitAssets>
+   <expressions itemType="MetaPedExpression">
+    <Item>
+     <id value="3437" />
+     <value value="0.09" />
+    </Item>
+    <Item>
+     <id value="9584" />
+     <value value="-0.361002" />
+    </Item>
+    <Item>
+     <id value="16009" />
+     <value value="-0.093" />
+    </Item>
+    <Item>
+     <id value="38169" />
+     <value value="-0.771998" />
+    </Item>
+    <Item>
+     <id value="9586" />
+     <value value="-0.601" />
+    </Item>
+    <Item>
+     <id value="9584" />
+     <value value="-0.361002" />
+    </Item>
+   </expressions>
+   <subOutfits />
+   <variations />
+   <tags>
+    <Item>hTzmBfA_0x4BFA4A07</Item>
+    <Item>rRHQlJA_0x2F9EEF6E</Item>
+   </tags>
+   <shopItems />
+  </Item>
+ </outfits>
+ <voiceGroup />
+ <pulverizeVfx />
+ <goreType>none</goreType>
+ <type>MPT_MALE</type>
+ <version value="79" />
+ <allowRandomExpressions value="False" />
+</MetaPed>

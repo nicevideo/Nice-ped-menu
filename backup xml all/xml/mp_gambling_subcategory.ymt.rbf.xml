@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIGrid>
+ <UseLayoutEngine value="True" />
+ <Style>INFO_PANEL</Style>
+ <SpecializedLayoutParams>
+  <Item>
+   <params type="params">
+    <columns>
+     <Item>
+      <size value="4" />
+      <type>SIZING_TYPE_STAR</type>
+     </Item>
+     <Item>
+      <size value="80" />
+      <type>SIZING_TYPE_STAR</type>
+     </Item>
+     <Item>
+      <size value="4" />
+      <type>SIZING_TYPE_STAR</type>
+     </Item>
+    </columns>
+    <rows>
+     <Item>
+      <size value="4" />
+      <type>SIZING_TYPE_STAR</type>
+     </Item>
+     <Item>
+      <size value="40" />
+      <type>SIZING_TYPE_STAR</type>
+     </Item>
+     <Item>
+      <size value="6" />
+      <type>SIZING_TYPE_STAR</type>
+     </Item>
+     <Item>
+      <size value="50" />
+      <type>SIZING_TYPE_STAR</type>
+     </Item>
+     <Item>
+      <size value="6" />
+      <type>SIZING_TYPE_STAR</type>
+     </Item>
+     <Item>
+      <size value="1" />
+      <type>SIZING_TYPE_STAR</type>
+     </Item>
+    </rows>
+   </params>
+  </Item>
+ </SpecializedLayoutParams>
+ <BehaviorSet type="BehaviorSet">
+  <Behaviors>
+   <Item>
+    <Name>focusable</Name>
+   </Item>
+   <Item>
+    <FlowOp type="FlowOp">
+     <Link>to_articles</Link>
+    </FlowOp>
+    <Message>fwuiInputMessageAccept</Message>
+    <HintText>IB_SELECT</HintText>
+   </Item>
+   <Item>
+    <Name>focusableTriggerSubCat</Name>
+    <trigger>uiobjectMsgFocusGained</trigger>
+    <ElementId>help_tool_tip</ElementId>
+   </Item>
+   <Item>
+    <Name>selectableTriggerSubCat</Name>
+    <trigger>uiSelectableSelected</trigger>
+    <ElementId>help_sub_category</ElementId>
+   </Item>
+   <Item>
+    <Name>selectableTriggerSubCatResource</Name>
+    <trigger>uiSelectableSelected</trigger>
+    <ElementId>help_articles_resource</ElementId>
+   </Item>
+   <Item>
+    <MemberBindingLinks>
+     <Item>
+      <MemberPath type="MemberPath">
+       <Path>focusableTriggerSubCat.Value</Path>
+       <PathType>PATH_LOCAL</PathType>
+      </MemberPath>
+      <BindingSetup type="BindingSetup">
+       <Path>tooltip</Path>
+       <PathType>PATH_RELATIVE</PathType>
+      </BindingSetup>
+     </Item>
+     <Item>
+      <MemberPath type="MemberPath">
+       <Path>selectableTriggerSubCat.Value</Path>
+       <PathType>PATH_LOCAL</PathType>
+      </MemberPath>
+      <BindingSetup type="BindingSetup">
+       <Path>subcategory</Path>
+       <PathType>PATH_RELATIVE</PathType>
+      </BindingSetup>
+     </Item>
+     <Item>
+      <MemberPath type="MemberPath">
+       <Path>selectableTriggerSubCatResource.Value</Path>
+       <PathType>PATH_LOCAL</PathType>
+      </MemberPath>
+      <BindingSetup type="BindingSetup">
+       <Path>articleDataFile</Path>
+       <PathType>PATH_RELATIVE</PathType>
+      </BindingSetup>
+     </Item>
+     <Item>
+      <MemberPath type="MemberPath">
+       <Path>unlock.UnlockId</Path>
+       <PathType>PATH_LOCAL</PathType>
+      </MemberPath>
+      <BindingSetup type="BindingSetup">
+       <Path>unlockId</Path>
+       <PathType>PATH_RELATIVE</PathType>
+      </BindingSetup>
+     </Item>
+     <Item>
+      <MemberPath type="MemberPath">
+       <Path>googleanalytic.PageHash</Path>
+       <PathType>PATH_LOCAL</PathType>
+      </MemberPath>
+      <BindingSetup type="BindingSetup">
+       <Path>subcategory</Path>
+       <PathType>PATH_RELATIVE</PathType>
+      </BindingSetup>
+     </Item>
+    </MemberBindingLinks>
+   </Item>
+   <Item>
+    <Name>googleanalytic</Name>
+    <SimpleReport value="True" />
+   </Item>
+   <Item>
+    <AdornmentID>highlight_adornment_tiled</AdornmentID>
+   </Item>
+   <Item>
+    <Name>unlock</Name>
+   </Item>
+  </Behaviors>
+ </BehaviorSet>
+ <MemberBindings>
+  <Item>
+   <MemberName>Enabled</MemberName>
+   <Setup type="Setup">
+    <Path>^.unlock.locked</Path>
+    <PathType>PATH_LOCAL</PathType>
+   </Setup>
+   <Converter type="Converter">
+    <Invert value="True" />
+   </Converter>
+  </Item>
+  <Item>
+   <MemberName>Visible</MemberName>
+   <Setup type="Setup">
+    <Path>sessionInfo.isOnlineGamblingAllowed</Path>
+    <PathType>PATH_ABSOLUTE</PathType>
+   </Setup>
+  </Item>
+ </MemberBindings>
+ <Children>
+  <Item>
+   <Name>IMGBg</Name>
+   <Color>COLOR_WHITE</Color>
+   <TextureDictionary>pausemenu_textures</TextureDictionary>
+   <Texture>STORE_CARD_BG</Texture>
+   <Alpha value="10" />
+   <UseLayoutEngine value="True" />
+   <LayoutParams type="LayoutParams">
+    <params type="params">
+     <horizontalAlignment>HALIGN_STRETCH</horizontalAlignment>
+     <verticalAlignment>VALIGN_STRETCH</verticalAlignment>
+     <widthContentMode>CONTENT_MODE_AUTO</widthContentMode>
+     <heightContentMode>CONTENT_MODE_AUTO</heightContentMode>
+     <topMargin value="4294967281" />
+     <bottomMargin value="4294967281" />
+     <leftMargin value="4294967281" />
+     <rightMargin value="4294967281" />
+    </params>
+   </LayoutParams>
+   <SpecializedLayoutParams>
+    <Item>
+     <params type="params">
+      <Stretch>FILL</Stretch>
+     </params>
+    </Item>
+    <Item>
+     <params type="params">
+      <row value="0" />
+      <column value="0" />
+      <rowSpan value="6" />
+      <columnSpan value="3" />
+     </params>
+    </Item>
+   </SpecializedLayoutParams>
+  </Item>
+  <Item>
+   <Name>IMGDecorator</Name>
+   <Color>COLOR_GREYDARK</Color>
+   <TextureDictionary>pausemenu_textures</TextureDictionary>
+   <Texture>BOX_BORDER_DECOR_SMALL</Texture>
+   <Alpha value="85" />
+   <Visible value="False" />
+   <UseLayoutEngine value="True" />
+   <LayoutParams type="LayoutParams">
+    <params type="params">
+     <horizontalAlignment>HALIGN_STRETCH</horizontalAlignment>
+     <verticalAlignment>VALIGN_STRETCH</verticalAlignment>
+     <widthContentMode>CONTENT_MODE_AUTO</widthContentMode>
+     <heightContentMode>CONTENT_MODE_AUTO</heightContentMode>
+     <topMargin value="8" />
+     <bottomMargin value="8" />
+     <leftMargin value="8" />
+     <rightMargin value="8" />
+    </params>
+   </LayoutParams>
+   <SpecializedLayoutParams>
+    <Item>
+     <params type="params">
+      <Stretch>FILL</Stretch>
+     </params>
+    </Item>
+    <Item>
+     <params type="params">
+      <row value="1" />
+      <column value="1" />
+     </params>
+    </Item>
+   </SpecializedLayoutParams>
+   <MemberBindings>
+    <Item>
+     <MemberName>Visible</MemberName>
+     <Setup type="Setup">
+      <Path>isLocked</Path>
+      <PathType>PATH_RELATIVE</PathType>
+     </Setup>
+    </Item>
+   </MemberBindings>
+  </Item>
+  <Item>
+   <Name>IMGMainImage</Name>
+   <UseLayoutEngine value="True" />
+   <LayoutParams type="LayoutParams">
+    <params type="params">
+     <horizontalAlignment>HALIGN_CENTER</horizontalAlignment>
+     <verticalAlignment>VALIGN_CENTER</verticalAlignment>
+     <widthContentMode>CONTENT_MODE_AUTO</widthContentMode>
+     <heightContentMode>CONTENT_MODE_AUTO</heightContentMode>
+    </params>
+   </LayoutParams>
+   <SpecializedLayoutParams>
+    <Item>
+     <params type="params">
+      <Stretch>FILL</Stretch>
+     </params>
+    </Item>
+    <Item>
+     <params type="params">
+      <row value="1" />
+      <column value="1" />
+     </params>
+    </Item>
+   </SpecializedLayoutParams>
+   <MemberBindings>
+    <Item>
+     <MemberName>TextureDictionary</MemberName>
+     <Setup type="Setup">
+      <Path>textureTxd</Path>
+      <PathType>PATH_RELATIVE</PathType>
+     </Setup>
+    </Item>
+    <Item>
+     <MemberName>Texture</MemberName>
+     <Setup type="Setup">
+      <Path>textureName</Path>
+      <PathType>PATH_RELATIVE</PathType>
+     </Setup>
+    </Item>
+    <Item>
+     <MemberName>Visible</MemberName>
+     <Setup type="Setup">
+      <Path>isLocked</Path>
+      <PathType>PATH_RELATIVE</PathType>
+     </Setup>
+     <Converter type="Converter">
+      <TargetValue type="TargetValue">
+       <value value="False" />
+      </TargetValue>
+      <Operator>EQUAL</Operator>
+     </Converter>
+    </Item>
+   </MemberBindings>
+  </Item>
+  <Item>
+   <Name>TXTTitle</Name>
+   <Text>CARD TITLE</Text>
+   <UseLayoutEngine value="True" />
+   <Style>PAUSE_HELP_CATEGORY_TITLE</Style>
+   <SpecializedLayoutParams>
+    <Item>
+     <params type="params">
+      <row value="2" />
+      <column value="1" />
+     </params>
+    </Item>
+   </SpecializedLayoutParams>
+   <MemberBindings>
+    <Item>
+     <MemberName>Text</MemberName>
+     <Setup type="Setup">
+      <Path>label</Path>
+      <PathType>PATH_RELATIVE</PathType>
+     </Setup>
+    </Item>
+    <Item>
+     <MemberName>Visible</MemberName>
+     <Setup type="Setup">
+      <Path>^.^.unlock.locked</Path>
+      <PathType>PATH_LOCAL</PathType>
+     </Setup>
+     <Converter type="Converter">
+      <Invert value="True" />
+     </Converter>
+    </Item>
+   </MemberBindings>
+  </Item>
+  <Item>
+   <Name>TXTDesc</Name>
+   <Text>CARD DESCRIPTION</Text>
+   <UseLayoutEngine value="True" />
+   <Style>PAUSE_HELP_CATEGORY_BODY</Style>
+   <SpecializedLayoutParams>
+    <Item>
+     <params type="params">
+      <row value="3" />
+      <column value="1" />
+     </params>
+    </Item>
+   </SpecializedLayoutParams>
+   <MemberBindings>
+    <Item>
+     <MemberName>Text</MemberName>
+     <Setup type="Setup">
+      <Path>description</Path>
+     </Setup>
+    </Item>
+    <Item>
+     <MemberName>Visible</MemberName>
+     <Setup type="Setup">
+      <Path>^.^.unlock.locked</Path>
+      <PathType>PATH_LOCAL</PathType>
+     </Setup>
+     <Converter type="Converter">
+      <Invert value="True" />
+     </Converter>
+    </Item>
+   </MemberBindings>
+  </Item>
+  <Item>
+   <Name>RECTPhotoLock</Name>
+   <Color>COLOR_BLACK</Color>
+   <UseLayoutEngine value="True" />
+   <LayoutParams type="LayoutParams">
+    <params type="params">
+     <horizontalAlignment>HALIGN_STRETCH</horizontalAlignment>
+     <verticalAlignment>VALIGN_STRETCH</verticalAlignment>
+     <widthContentMode>CONTENT_MODE_AUTO</widthContentMode>
+     <heightContentMode>CONTENT_MODE_AUTO</heightContentMode>
+     <rightMargin value="5" />
+     <leftMargin value="5" />
+     <topMargin value="5" />
+     <bottomMargin value="5" />
+    </params>
+   </LayoutParams>
+   <SpecializedLayoutParams>
+    <Item>
+     <params type="params">
+      <row value="1" />
+      <column value="1" />
+     </params>
+    </Item>
+   </SpecializedLayoutParams>
+   <MemberBindings>
+    <Item>
+     <MemberName>Visible</MemberName>
+     <Setup type="Setup">
+      <Path>^.^.unlock.locked</Path>
+      <PathType>PATH_LOCAL</PathType>
+     </Setup>
+    </Item>
+   </MemberBindings>
+  </Item>
+  <Item>
+   <Name>TXTTitleLock</Name>
+   <Text>PM_Locked</Text>
+   <UseLayoutEngine value="True" />
+   <Style>PAUSE_HELP_CATEGORY_TITLE</Style>
+   <SpecializedLayoutParams>
+    <Item>
+     <params type="params">
+      <row value="2" />
+      <column value="1" />
+     </params>
+    </Item>
+   </SpecializedLayoutParams>
+   <MemberBindings>
+    <Item>
+     <MemberName>Visible</MemberName>
+     <Setup type="Setup">
+      <Path>^.^.unlock.locked</Path>
+      <PathType>PATH_LOCAL</PathType>
+     </Setup>
+    </Item>
+   </MemberBindings>
+  </Item>
+  <Item>
+   <Name>IMGTitleLockIcon</Name>
+   <TextureDictionary>generic_textures</TextureDictionary>
+   <Texture>LOCK</Texture>
+   <Color>COLOR_WHITE</Color>
+   <UseLayoutEngine value="True" />
+   <LayoutParams type="LayoutParams">
+    <params type="params">
+     <horizontalAlignment>HALIGN_LEFT</horizontalAlignment>
+     <verticalAlignment>VALIGN_CENTER</verticalAlignment>
+     <widthContentMode>CONTENT_MODE_RAW</widthContentMode>
+     <heightContentMode>CONTENT_MODE_RAW</heightContentMode>
+     <width value="30" />
+     <height value="30" />
+    </params>
+   </LayoutParams>
+   <SpecializedLayoutParams>
+    <Item>
+     <params type="params">
+      <row value="2" />
+      <column value="1" />
+     </params>
+    </Item>
+    <Item>
+     <params type="params">
+      <Stretch>FILL</Stretch>
+     </params>
+    </Item>
+   </SpecializedLayoutParams>
+   <MemberBindings>
+    <Item>
+     <MemberName>Visible</MemberName>
+     <Setup type="Setup">
+      <Path>^.^.unlock.locked</Path>
+      <PathType>PATH_LOCAL</PathType>
+     </Setup>
+    </Item>
+   </MemberBindings>
+  </Item>
+  <Item>
+   <Name>TXTDescLock</Name>
+   <Text>PM_TIP_LOCKED</Text>
+   <UseLayoutEngine value="True" />
+   <Style>PAUSE_HELP_CATEGORY_BODY</Style>
+   <SpecializedLayoutParams>
+    <Item>
+     <params type="params">
+      <row value="3" />
+      <column value="1" />
+     </params>
+    </Item>
+   </SpecializedLayoutParams>
+   <MemberBindings>
+    <Item>
+     <MemberName>Visible</MemberName>
+     <Setup type="Setup">
+      <Path>^.^.unlock.locked</Path>
+      <PathType>PATH_LOCAL</PathType>
+     </Setup>
+    </Item>
+   </MemberBindings>
+  </Item>
+ </Children>
+</UIGrid>

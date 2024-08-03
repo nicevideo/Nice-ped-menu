@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDR2Drawable version="1">
+ <Name>loansharking_chair_col.#dr</Name>
+ <BoundingSphereRadius value="0.110943" />
+ <BoundingBoxMin x="-0.071211" y="-0.083358" z="-0.016993" />
+ <BoundingBoxMax x="0.071211" y="0.083358" z="0.016993" />
+ <LodDistHigh value="9998" />
+ <LodDistMed value="9998" />
+ <LodDistLow value="9998" />
+ <LodDistVlow value="9998" />
+ <FlagsHigh value="1" />
+ <ShaderGroup>
+  <Shaders>
+   <Item>
+    <Name>standard</Name>
+    <DrawBucket value="0" />
+    <Parameters>
+     <BufferSizes>192</BufferSizes>
+     <Items>
+      <Item type="Texture" name="tintpalettetex" index="0" />
+      <Item type="Texture" name="oIZmQFA_0xE9F32960" index="1" />
+      <Item type="Texture" name="diffusetex" index="2" texture="roc_int_doorstep01_ab" />
+      <Item type="Texture" name="detailtexarrayn" index="3" />
+      <Item type="Texture" name="bumptex" index="4" texture="roc_int_doorstep01_nm" />
+      <Item type="Texture" name="speculartex" index="5" texture="roc_int_doorstep01_ma" />
+      <Item type="Texture" name="speculartex2" index="6" texture="blank_mb" />
+      <Item type="Sampler" name="pointclamp" index="0" sampler="0" />
+      <Item type="Sampler" name="trilinearclamp" index="1" sampler="2" />
+      <Item type="Sampler" name="diffusesampler" index="2" sampler="1" />
+      <Item type="Sampler" name="trilinearwrap" index="3" sampler="7" />
+      <Item type="Sampler" name="miplinearclamp" index="4" sampler="3" />
+      <Item type="Sampler" name="anisotropic16xwrap" index="5" sampler="8" />
+      <Item type="Sampler" name="projdecaltexarraysampler" index="6" sampler="13" />
+      <Item type="Sampler" name="miplinearwrap" index="7" sampler="5" />
+      <Item type="Sampler" name="bumpsampler" index="8" sampler="9" />
+      <Item type="Sampler" name="specsampler" index="9" sampler="10" />
+      <Item type="Sampler" name="trilinearborderblack" index="10" sampler="6" />
+      <Item type="Sampler" name="specsampler2" index="11" sampler="11" />
+      <Item type="Sampler" name="raintexturesamplerglobal" index="12" sampler="12" />
+      <Item type="Sampler" name="gcsmshadowtexturesamp" index="13" sampler="4" />
+      <Item type="CBuffer" name="tintpaletteselector" buffer="0" offset="0" length="8" x="0" y="0" />
+      <Item type="CBuffer" name="detailsettings" buffer="0" offset="16" length="16" x="0" y="0" z="24" w="24" />
+      <Item type="CBuffer" name="detailindexoverride" buffer="0" offset="32" length="4" x="-1" />
+      <Item type="CBuffer" name="fresnel" buffer="0" offset="36" length="4" x="0" />
+      <Item type="CBuffer" name="specmapintmask" buffer="0" offset="48" length="12" x="1" y="0" z="0" />
+      <Item type="CBuffer" name="tintoverride" buffer="0" offset="64" length="16" x="1" y="1" z="1" w="0" />
+      <Item type="CBuffer" name="pbrglassiness" buffer="0" offset="80" length="4" x="0" />
+      <Item type="CBuffer" name="pbrcavityrange" buffer="0" offset="84" length="4" x="0" />
+      <Item type="CBuffer" name="pbrtweak_metallic" buffer="0" offset="88" length="4" x="0" />
+      <Item type="CBuffer" name="pbrtweak_sheen" buffer="0" offset="92" length="4" x="0" />
+      <Item type="CBuffer" name="pbrtweak_roughness" buffer="0" offset="96" length="4" x="0" />
+      <Item type="CBuffer" name="pbrtweak_ao" buffer="0" offset="100" length="4" x="0" />
+      <Item type="CBuffer" name="pbrtweak_translucency" buffer="0" offset="104" length="4" x="0" />
+      <Item type="CBuffer" name="pbrtweak_fresnel" buffer="0" offset="108" length="4" x="0" />
+      <Item type="CBuffer" name="pbrtweak_detail" buffer="0" offset="112" length="4" x="0" />
+      <Item type="CBuffer" name="pbrtweak_detailindex_" buffer="0" offset="116" length="4" x="-1" />
+      <Item type="CBuffer" name="pbrdetail_metallic" buffer="0" offset="120" length="4" x="0" />
+      <Item type="CBuffer" name="pbrdetail_sheen" buffer="0" offset="124" length="4" x="0" />
+      <Item type="CBuffer" name="pbrdetail_roughness" buffer="0" offset="128" length="4" x="0" />
+      <Item type="CBuffer" name="pbrdetail_ao" buffer="0" offset="132" length="4" x="0" />
+      <Item type="CBuffer" name="pbrdetail_translucency" buffer="0" offset="136" length="4" x="0" />
+      <Item type="CBuffer" name="bumpiness" buffer="0" offset="140" length="4" x="1" />
+      <Item type="CBuffer" name="wetnessmultiplier" buffer="0" offset="144" length="4" x="1" />
+      <Item type="CBuffer" name="porosity" buffer="0" offset="148" length="4" x="0.5" />
+      <Item type="CBuffer" name="usetessellation" buffer="0" offset="152" length="4" x="0" />
+      <Item type="CBuffer" name="hardalphablend" buffer="0" offset="156" length="4" x="0" />
+      <Item type="CBuffer" name="marktaaghostingbit" buffer="0" offset="160" length="4" x="0" />
+      <Item type="CBuffer" name="usepaintedwetness" buffer="0" offset="164" length="4" x="0" />
+      <Item type="CBuffer" name="haspuddleswitch" buffer="0" offset="168" length="4" x="0" />
+      <Item type="CBuffer" name="puddleheightbias" buffer="0" offset="172" length="4" x="0" />
+      <Item type="CBuffer" name="puddlemaskscale" buffer="0" offset="176" length="4" x="2" />
+      <Item type="CBuffer" name="translucencyastintmask" buffer="0" offset="180" length="4" x="0" />
+     </Items>
+    </Parameters>
+   </Item>
+  </Shaders>
+ </ShaderGroup>
+ <LodHigh>
+  <Models>
+   <Item>
+    <BoundingBoxMin x="-0.07128906" y="-0.083496094" z="-0.017089844" />
+    <BoundingBoxMax x="0.07128906" y="0.083496094" z="0.017089844" />
+    <Geometries>
+     <Item>
+      <ShaderID value="0" />
+      <BoundingBoxMin x="-0.07128906" y="-0.083496094" z="-0.017089844" />
+      <BoundingBoxMax x="0.07128906" y="0.083496094" z="0.017089844" />
+      <VertexLayout>
+       <Semantics>PNXCTT</Semantics>
+       <Formats>399522</Formats>
+       <NonInterleaved value="True" />
+      </VertexLayout>
+      <Vertices>
+0.07128906 0.083496094 0.017089844	0 0 1	-0.9960861 0.08219178 0	255 255 121 255	0.0010070801 -0.76220703	0.62246704 0.5388489
+-0.07128906 0.083496094 0.017089844	0 0 1	-0.9960861 0.08219178 0	255 255 121 255	0.9973297 -0.774292	0.62246704 0.65541077
+-0.07128906 -0.083496094 0.017089844	0 0 1	-0.9960861 0.08219178 0	255 255 121 255	0.99728394 -0.9446869	0.6253967 0.6555176
+0.07128906 -0.083496094 0.017089844	0 0 1	-0.9960861 0.08219178 0	255 255 121 255	0.0009613037 -0.9326019	0.6253967 0.53874207
+0.07128906 0.083496094 0.017089844	1 0 0	0 -1 0	255 255 121 255	0.7931824 0.41636658	0.62246704 0.5388489
+0.07128906 -0.083496094 0.017089844	1 0 0	0 -1 0	255 255 121 255	0.81495667 0.41636658	0.6223755 0.5359497
+0.07128906 -0.083496094 -0.017089844	1 0 0	0 -1 0	255 255 105 255	0.81495667 0.19319153	0.6150055 0.5361786
+0.07128906 0.083496094 -0.017089844	1 0 0	0 -1 0	255 255 105 255	0.7931824 0.19319153	0.6150818 0.53907776
+-0.07128906 0.083496094 0.017089844	0 1 0	1 0 0	255 255 121 255	0.13349915 0.41636658	0.62246704 0.65541077
+0.07128906 0.083496094 0.017089844	0 1 0	1 0 0	255 255 121 255	1.0049591 0.41636658	0.62246704 0.5388489
+0.07128906 0.083496094 -0.017089844	0 1 0	1 0 0	255 255 105 255	1.0049591 0.19319153	0.6150818 0.53907776
+-0.07128906 0.083496094 -0.017089844	0 1 0	1 0 0	255 255 105 255	0.13349915 0.19319153	0.6150818 0.6551819
+-0.07128906 -0.083496094 0.017089844	-1 0 0	0 1 0	255 255 121 255	0.042510986 0.41636658	0.6223755 0.65830994
+-0.07128906 0.083496094 0.017089844	-1 0 0	0 1 0	255 255 121 255	0.06428528 0.41636658	0.62246704 0.65541077
+-0.07128906 0.083496094 -0.017089844	-1 0 0	0 1 0	255 255 105 255	0.06428528 0.19319153	0.6150818 0.6551819
+-0.07128906 -0.083496094 -0.017089844	-1 0 0	0 1 0	255 255 105 255	0.042510986 0.19319153	0.6150055 0.65808105
+-0.07128906 -0.083496094 0.017089844	0 -1 0	-1 0 0	255 255 121 255	0.87379456 0.41636658	0.6253967 0.6555176
+-0.07128906 -0.083496094 -0.017089844	0 -1 0	-1 0 0	255 255 105 255	0.87379456 0.19319153	0.63279724 0.65541077
+0.07128906 -0.083496094 -0.017089844	0 -1 0	-1 0 0	255 255 105 255	0.0023345947 0.19319153	0.63279724 0.5388489
+0.07128906 -0.083496094 0.017089844	0 -1 0	-1 0 0	255 255 121 255	0.0023345947 0.41636658	0.6253967 0.53874207
+      </Vertices>
+      <Indices>
+       0 1 2 2 3 0 4 5 6 6
+       7 4 8 9 10 10 11 8 12 13
+       14 14 15 12 16 17 18 18 19 16
+      </Indices>
+     </Item>
+    </Geometries>
+   </Item>
+  </Models>
+ </LodHigh>
+</RDR2Drawable>
