@@ -27,9 +27,9 @@ AddEventHandler('nice_ped:sv_getListVarPed', function(args)
   local list = {} -- ped's list
 
   -- récupérer la liste de ped depuis un fichier (optimisation)
-  -- local contenu = GetValue("resources/nice_ped/list_ped_var/"..name..".txt")
   local contenu = ""
-  local file = io.open("resources/nice_ped/list_ped_var/"..name..".txt", "r") or nil -- local f = assert(io.open(filename, "r"))
+  local filePath = Config.paths.listVarPed .. name .. ".txt"
+  local file = io.open(filePath, "r") or nil
   if file ~= nil then
     contenu = file:read("*all") or {}
     file:close()
@@ -65,7 +65,8 @@ AddEventHandler('nice_ped:sv_loadOnePed', function(args)
   local file_name = args.pseudo
 
   local infos = {}
-  infos = GetValue("resources/nice_ped/list_lua/" .. file_name .. ".txt")
+  local filePath = Config.paths.listLua .. file_name .. ".txt"
+  infos = GetValue(filePath)
 
   local list = {} -- ped's informations
 
